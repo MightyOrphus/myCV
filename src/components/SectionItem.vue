@@ -1,13 +1,13 @@
 <template>
-  <div id="sectionItem">
+  <div class="sectionItem">
     <div>
       <!-- <b-icon v-if="item.icon" :icon="item.icon" /> -->
-      <b-icon :icon="item.icon" />
+      <font-awesome-icon :icon="item.icon" />
       <!-- if else for text -->
       <a v-if="item.link" class="" :href="item.link" target="_blank">
         {{ item.text }}
       </a>
-      <span v-else class="">
+      <span v-else>
         {{ item.text }}
       </span>
     </div>
@@ -27,12 +27,13 @@ export default {
 </script>
 
 <style scoped>
-#sectionItem {
+.sectionItem {
   margin-top: 10px;
+  color: var(--color-1);
 }
 
 a {
-  color: black;
+  color: var(--color-1);
 }
 a:link,
 a:visited,

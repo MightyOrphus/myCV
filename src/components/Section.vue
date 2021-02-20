@@ -1,36 +1,32 @@
 <template>
   <div class="mb-4" id="section">
-    <div class="title mb-3">
-      {{ options.title }}
+    <div class="title">
+      {{ option.title }}
     </div>
-    <!-- <slot v-if="$slots.default" />
-    <template v-else-if="$scopedSlots.items">
-      <slot name="items" :items="options.items" />
-    </template>
-    <template v-else-if="$scopedSlots.item">
-      <slot v-for="item in options.items" name="item" :item="item" />
-    </template>
-    <template v-else>
+    <div v-if="option.type == 'info'">
       <SectionItem
-        v-for="(item, index) in options.items"
-        :key="index"
+        v-for="(item, idx) in option.items"
+        :key="idx"
         :item="item"
       />
-    </template> -->
-    <SectionItem
-      v-for="(item, index) in options.items"
-      :key="index"
-      :item="item"
-    />
+    </div>
+    <div v-if="option.type == 'progress'">
+      <SectionProgressItem
+        v-for="(item, idx) in option.items"
+        :key="idx"
+        :item="item"
+      />
+    </div>
   </div>
 </template>
 
 <script>
 import SectionItem from "./SectionItem";
+import SectionProgressItem from "./SectionProgressItem";
 export default {
   name: "Section",
-  components: { SectionItem },
-  props: { options: { type: Object, default: () => {} } },
+  components: { SectionItem, SectionProgressItem },
+  props: { option: { type: Object, default: () => {} } },
 };
 </script>
 
@@ -40,9 +36,8 @@ export default {
 }
 
 .title {
-  border-bottom: 2px #bfbfbf solid;
-  font-weight: 300;
-  line-height: 1.5 !important;
-  letter-spacing: 0.2em !important;
+  padding: 5px;
+  color: var(--color-1);
+  border-bottom: 1px var(--color-1) solid;
 }
 </style>
