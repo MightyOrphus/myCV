@@ -58,6 +58,7 @@ export default {
           icon: "bullseye",
         },
         { name: "Rope Skipping", icon: "frog" },
+        { name: "3D printing", icon: "" },
       ],
       skills: [
         {
@@ -67,24 +68,19 @@ export default {
           value: 50,
         },
         {
-          text: "Spring Boot",
+          text: "SQL",
           variant: "info",
-          value: 20,
-        },
-        {
-          text: "JQuery",
-          variant: "info",
-          value: 40,
-        },
-        {
-          text: "OracleSQL",
-          variant: "info",
-          value: 50,
+          value: 60,
         },
 
         {
           text: "AWS",
           icon: ["fab", "aws"],
+          variant: "info",
+          value: 50,
+        },
+        {
+          text: "Fusion 360",
           variant: "info",
           value: 50,
         },
