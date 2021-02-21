@@ -17,11 +17,6 @@
 export default {
   name: "SectionItem",
   props: { item: { type: Object, default: () => {} } },
-  computed: {
-    // hasIcon() {
-    //   return !!this.item.icon;
-    // },
-  },
 };
 </script>
 

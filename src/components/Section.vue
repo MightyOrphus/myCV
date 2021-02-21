@@ -11,7 +11,7 @@
       />
     </div>
     <div v-if="option.type == 'progress'">
-      <SectionProgressItem
+      <ProgressItem
         v-for="(item, idx) in option.items"
         :key="idx"
         :item="item"
@@ -22,10 +22,10 @@
 
 <script>
 import SectionItem from "./SectionItem";
-import SectionProgressItem from "./SectionProgressItem";
+import ProgressItem from "./ProgressItem";
 export default {
   name: "Section",
-  components: { SectionItem, SectionProgressItem },
+  components: { SectionItem, ProgressItem },
   props: { option: { type: Object, default: () => {} } },
 };
 </script>
