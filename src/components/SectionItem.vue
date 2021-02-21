@@ -1,7 +1,6 @@
 <template>
   <div class="sectionItem">
     <div>
-      <!-- <b-icon v-if="item.icon" :icon="item.icon" /> -->
       <font-awesome-icon :icon="item.icon" />
       <!-- if else for text -->
       <a v-if="item.link" class="" :href="item.link" target="_blank">
@@ -29,11 +28,10 @@ export default {
 <style scoped>
 .sectionItem {
   margin-top: 10px;
-  color: var(--color-1);
 }
 
 a {
-  color: var(--color-1);
+  color: black;
 }
 a:link,
 a:visited,

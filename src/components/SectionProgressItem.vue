@@ -13,9 +13,3 @@ export default {
   props: { item: { type: Object, default: () => {} } },
 };
 </script>
-
-<style scoped>
-.progressItem {
-  color: var(--color-1);
-}
-</style>

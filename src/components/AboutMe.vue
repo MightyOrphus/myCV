@@ -16,7 +16,7 @@
             2011-2014
           </b-col>
           <b-col>
-            <b>Bachelor's degree, Information Technology</b>
+            <b>Bachelor's degree, Computer Science</b>
             <br />
             Kasetsart University
           </b-col>
@@ -25,7 +25,13 @@
     </div>
     <div>
       <div id="header">HOBBIES</div>
-      <!-- <div v-for="(item, idx) in hobbies">{{ item }}-{{ idx }}</div> -->
+      <b-button
+        id="hobbyItem"
+        disabled
+        v-for="(item, idx) in hobbies"
+        :key="idx"
+        ><font-awesome-icon :icon="item.icon" /> {{ item.name }}</b-button
+      >
     </div>
   </div>
 </template>
@@ -33,7 +39,17 @@
 export default {
   data() {
     return {
-      hobbies: [],
+      hobbies: [
+        { name: "Gaming", icon: "gamepad" },
+        { name: "Jogging", icon: "running" },
+        { name: "Walking", icon: "walking" },
+        { name: "Reading (Mostly fiction)", icon: "book" },
+        {
+          name: "Shooting (I can shoot both gun and bow...)",
+          icon: "bullseye",
+        },
+        { name: "Rope Skipping", icon: "frog" },
+      ],
     };
   },
 };
@@ -47,8 +63,12 @@ export default {
 }
 #header {
   border-bottom: 1px var(--color-1) solid;
+  font-weight: bold;
 }
 #info {
   padding-top: 5px;
+}
+#hobbyItem {
+  margin: 5px;
 }
 </style>

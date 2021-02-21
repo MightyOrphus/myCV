@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
     <div id="avatar-container">
-      <img src="../assets/img/Capture.png" alt="Avatar" id="avatar" />
+      <img src="../assets/img/me.jpg" alt="Avatar" id="avatar" />
       <h5 id="name">Patcharawat Wongvasinkul</h5>
     </div>
     <Section :option="sidebar.info" />
@@ -76,18 +76,16 @@ export default {
   background-color: var(--color-2);
   border-radius: 10px;
   padding: 15px;
+  /* color: var(--color-3); */
 }
 #avatar {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   margin: 5px;
-  border: 2px var(--color-5) solid;
+  border: 2px var(--color-3) solid;
 }
 #avatar-container {
   text-align: center;
-}
-#name {
-  color: var(--color-5);
 }
 </style>

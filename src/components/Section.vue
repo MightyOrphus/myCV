@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-4" id="section">
+  <div class="mb-4 section">
     <div class="title">
       {{ option.title }}
     </div>
@@ -31,13 +31,13 @@ export default {
 </script>
 
 <style scoped>
-#section {
+.section {
   text-align: left;
 }
 
 .title {
+  font-weight: bold;
   padding: 5px;
-  color: var(--color-1);
-  border-bottom: 1px var(--color-1) solid;
+  border-bottom: 1px var(--color-3) solid;
 }
 </style>
