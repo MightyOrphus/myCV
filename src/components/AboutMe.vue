@@ -3,7 +3,7 @@
     <div>
       <div id="header">ABOUT ME</div>
       <p id="info">
-        A Thai developer. Currently, working for SS&C.
+        A Thai developer. Currently, working as a software developer for SS&C.
         <br />
         Now living in Bangkok.
       </p>

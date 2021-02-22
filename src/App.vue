@@ -4,6 +4,9 @@
       <SideBar class="col-md-4 col-lg-3" />
       <AboutMe class="col-md-8 col-lg-9" />
     </div>
+    <div class="row">
+      <Timeline class="col-sm-12" />
+    </div>
   </div>
 </template>
 
@@ -11,6 +14,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import SideBar from "./components/SideBar.vue";
 import AboutMe from "./components/AboutMe.vue";
+import Timeline from "./components/Timeline";
 
 export default {
   name: "App",
@@ -18,6 +22,7 @@ export default {
     // HelloWorld,
     SideBar,
     AboutMe,
+    Timeline,
   },
 };
 </script>
