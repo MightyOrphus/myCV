@@ -16,7 +16,13 @@ Vue.use(BootstrapVue)
 
 library.add(fas, fab)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
+Vue.mixin({
+  methods: {
+    hasIcon: function (icon) {
+      return !!icon;
+    },
+  },
+})
 Vue.config.productionTip = false
 
 new Vue({

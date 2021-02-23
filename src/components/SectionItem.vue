@@ -1,7 +1,9 @@
 <template>
   <div class="sectionItem">
     <div>
-      <font-awesome-icon :icon="item.icon" />
+      <span v-if="hasIcon(item.icon)">
+        <font-awesome-icon :icon="item.icon" />
+      </span>
       <!-- if else for text -->
       <a v-if="item.link" class="" :href="item.link" target="_blank">
         {{ item.text }}

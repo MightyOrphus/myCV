@@ -1,7 +1,9 @@
 <template>
   <div class="progressItem">
     <span id="name">{{ item.text }} </span>
-    <font-awesome-icon :icon="item.icon" />
+    <span v-if="hasIcon(item.icon)">
+      <font-awesome-icon :icon="item.icon" />
+    </span>
     <b-progress
       :value="item.value"
       height="5px"

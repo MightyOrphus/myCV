@@ -31,8 +31,12 @@
         disabled
         v-for="(item, idx) in hobbies"
         :key="idx"
-        ><font-awesome-icon :icon="item.icon" /> {{ item.name }}</b-button
       >
+        <span v-if="hasIcon(item.icon)">
+          <font-awesome-icon :icon="item.icon" />
+        </span>
+        {{ item.name }}
+      </b-button>
     </div>
     <div>
       <div id="header">TECHNICAL SKILLS</div>
