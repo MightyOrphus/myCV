@@ -9,21 +9,6 @@
       </p>
     </div>
     <div>
-      <div id="header">EDUCATION</div>
-      <p id="info">
-        <b-row>
-          <b-col>
-            2011-2014
-          </b-col>
-          <b-col>
-            <b>Bachelor's degree, Computer Science</b>
-            <br />
-            Kasetsart University
-          </b-col>
-        </b-row>
-      </p>
-    </div>
-    <div>
       <div id="header">HOBBIES</div>
       <b-button
         size="sm"
