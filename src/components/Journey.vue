@@ -42,7 +42,7 @@ export default {
             "<li>Front-end: Polymer, Vue (for internal tool), JQuery</li>" +
             "<li>Back-end: Java (Servlet, Spring boot)</li>" +
             "<li>DB: Oracle, MS SQL Server</li>" +
-            "<li>Cloud platform: AWS (cloudformation, pipelines, alarms, s3,...)</li>" +
+            "<li>Cloud platform: AWS (cloudformation, pipeline, alarm, s3, ec2, ...)</li>" +
             "</ul>" +
             "So I can say that I quite have some experience with the technologies above...",
           icon: "business_center",
