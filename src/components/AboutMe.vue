@@ -8,6 +8,13 @@
       </p>
     </div>
     <div class="about-me-section-container">
+      <div id="header">CERTIFICATES</div>
+      <div>
+        Some badge or certificate pictures should be here but somehow can't
+        gather them...
+      </div>
+    </div>
+    <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
       <b-button
         size="sm"
@@ -60,12 +67,6 @@ export default {
           icon: ["fab", "linux"],
           variant: "info",
           value: 30,
-        },
-        {
-          text: "Git",
-          icon: ["fab", "git-alt"],
-          variant: "info",
-          value: 50,
         },
         {
           text: "SQL",
