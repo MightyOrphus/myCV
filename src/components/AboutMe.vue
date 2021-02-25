@@ -15,16 +15,16 @@
       </div>
     </div>
     <div class="about-me-section-container">
+      <div id="header">TECHNICAL SKILLS</div>
+      <div v-for="(skill, idx) in skills" :key="idx">
+        <ProgressItem :item="skill" />
+      </div>
+    </div>
+    <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
       <div id="hobbyItem" v-for="(item, idx) in hobbies" :key="idx">
         <span v-html="item.icon" />
         {{ item.name }}
-      </div>
-    </div>
-    <div class="about-me-section-container">
-      <div id="header">TECHNICAL SKILLS</div>
-      <div v-for="(skill, idx) in skills" :key="idx">
-        <ProgressItem :item="skill" />
       </div>
     </div>
   </div>
