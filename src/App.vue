@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="row">
-      <SideBar class="col-md-4 col-lg-3" />
-      <AboutMe class="col-md-8 col-lg-9" />
+      <SideBar class="col-md-6 col-lg-3" />
+      <AboutMe class="col-md-6 col-lg-9" />
     </div>
     <div class="row">
       <Journey class="col-sm-12" />

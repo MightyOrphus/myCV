@@ -1,7 +1,7 @@
 <template>
   <div class="sectionItem">
     <div>
-      <span v-if="hasIcon(item.icon)">
+      <span v-if="hasIcon(item.icon)" id="icon-container">
         <font-awesome-icon :icon="item.icon" />
       </span>
       <!-- if else for text -->
@@ -26,7 +26,9 @@ export default {
 .sectionItem {
   margin-top: 10px;
 }
-
+#icon-container {
+  margin: 0 20px 0 20px;
+}
 a {
   color: black;
 }
