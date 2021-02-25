@@ -5,24 +5,22 @@
       <AboutMe class="col-md-8 col-lg-9" />
     </div>
     <div class="row">
-      <Timeline class="col-sm-12" />
+      <Journey class="col-sm-12" />
     </div>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import SideBar from "./components/SideBar.vue";
 import AboutMe from "./components/AboutMe.vue";
-import Timeline from "./components/Timeline";
+import Journey from "./components/Journey";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld,
     SideBar,
     AboutMe,
-    Timeline,
+    Journey,
   },
 };
 </script>
@@ -45,6 +43,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-1);
-  padding: 20px;
+  padding: 25px;
+  padding-top: 10px;
 }
 </style>

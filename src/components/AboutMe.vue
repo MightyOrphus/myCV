@@ -3,9 +3,9 @@
     <div>
       <div id="header">ABOUT ME</div>
       <p id="info">
-        A Thai developer. Currently, working as a software developer for SS&C.
+        A regular everyday normal developer who is quite friendly, resilient,
+        and polite with a good sense of humor, I believe... &#128518;
         <br />
-        Now living in Bangkok.
       </p>
     </div>
     <div>
@@ -48,8 +48,20 @@ export default {
         },
         { name: "Rope Skipping", icon: "frog" },
         { name: "3D printing", icon: "" },
+        { name: "Muay Thai", icon: "" },
       ],
       skills: [
+        {
+          text: "Fusion 360",
+          variant: "info",
+          value: 40,
+        },
+        {
+          text: "Linux",
+          icon: ["fab", "linux"],
+          variant: "info",
+          value: 30,
+        },
         {
           text: "Git",
           icon: ["fab", "git-alt"],
@@ -59,17 +71,12 @@ export default {
         {
           text: "SQL",
           variant: "info",
-          value: 60,
+          value: 45,
         },
 
         {
           text: "AWS",
           icon: ["fab", "aws"],
-          variant: "info",
-          value: 50,
-        },
-        {
-          text: "Fusion 360",
           variant: "info",
           value: 50,
         },
@@ -116,11 +123,12 @@ export default {
 .about-me {
   background-color: var(--color-3);
   color: var(--color-1);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding: 15px;
-  font-size: 15px;
+  font-size: 17px;
 }
 #header {
+  font-size: 20px;
   border-bottom: 1px var(--color-1) solid;
   font-weight: bold;
 }

@@ -31,7 +31,7 @@ export default {
             {
               name: "Birth Date",
               icon: ["fas", "birthday-cake"],
-              text: "7 June 1993",
+              text: "June 7",
             },
             {
               name: "Habitation",
@@ -81,7 +81,7 @@ export default {
 <style scoped>
 .sidebar {
   background-color: var(--color-2);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding: 15px;
 }
 #avatar {
