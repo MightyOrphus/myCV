@@ -101,7 +101,7 @@ export default {
 <style scoped>
 .about-me {
   background-color: var(--color-3);
-  color: var(--color-1);
+  color: lightgrey;
   /* border-radius: 10px; */
   padding: 15px;
   font-size: 17px;
@@ -111,7 +111,7 @@ export default {
 }
 #header {
   font-size: 20px;
-  border-bottom: 1px var(--color-1) solid;
+  border-bottom: 1px lightgrey solid;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -123,8 +123,8 @@ export default {
   padding: 0 3px 0 3px;
   border-radius: 5px;
   display: inline-block;
-  border: solid 1px grey;
-  background-color: grey;
+  border: solid 1px darkgrey;
+  background-color: darkgrey;
   color: black;
 }
 </style>
