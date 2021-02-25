@@ -86,17 +86,6 @@ export default {
           value: 50,
         },
         {
-          text: "Vue.js",
-          icon: ["fab", "vuejs"],
-          variant: "info",
-          value: 30,
-        },
-        {
-          text: "Polymer",
-          variant: "info",
-          value: 60,
-        },
-        {
           text: "Javascript",
           icon: ["fab", "js"],
           variant: "info",
