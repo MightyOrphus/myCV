@@ -1,6 +1,6 @@
 <template>
   <div class="progressItem">
-    <span id="name">{{ item.text }} </span>
+    <b id="name">{{ item.text }} </b>
     <span v-if="hasIcon(item.icon)">
       <font-awesome-icon :icon="item.icon" />
     </span>

@@ -1,14 +1,13 @@
 <template>
   <div class="about-me">
-    <div>
+    <div class="about-me-section-container">
       <div id="header">ABOUT ME</div>
       <p id="info">
         A regular everyday normal developer who is quite friendly, resilient,
         and polite with a good sense of humor, I believe... &#128518;
-        <br />
       </p>
     </div>
-    <div>
+    <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
       <b-button
         size="sm"
@@ -23,7 +22,7 @@
         {{ item.name }}
       </b-button>
     </div>
-    <div>
+    <div class="about-me-section-container">
       <div id="header">TECHNICAL SKILLS</div>
       <div v-for="(skill, idx) in skills" :key="idx">
         <ProgressItem :item="skill" />
@@ -115,6 +114,9 @@ export default {
   /* border-radius: 10px; */
   padding: 15px;
   font-size: 17px;
+}
+.about-me-section-container {
+  margin: 10px 10px 10px 20px;
 }
 #header {
   font-size: 20px;
