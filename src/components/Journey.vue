@@ -58,7 +58,7 @@ export default {
         {
           date: "2014-01-01",
           title: "SeSaMe Center, NUS",
-          category: "COOPERATIVE-PROGRAM INTERNSHIP",
+          category: "INTERNSHIP",
           description:
             "Working on an object detection project (using OpenCV and Matlab)" +
             "<ul>" +
