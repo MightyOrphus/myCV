@@ -3,7 +3,7 @@
     <div class="about-me-section-container">
       <div id="header">ABOUT ME</div>
       <p id="info">
-        A regular everyday normal developer who is quite friendly, resilient,
+        A regular everyday normal programmer who is quite friendly, resilient,
         and polite with a good sense of humor, I believe... &#128518;
       </p>
     </div>
