@@ -17,7 +17,7 @@
         title="BORN"
         description="Everything started here!"
         category=""
-        icon="baby"
+        icon="child_care"
         color="grey"
         theme="light"
         is-last
