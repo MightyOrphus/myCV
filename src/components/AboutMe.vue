@@ -16,18 +16,10 @@
     </div>
     <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
-      <b-button
-        size="sm"
-        id="hobbyItem"
-        disabled
-        v-for="(item, idx) in hobbies"
-        :key="idx"
-      >
-        <span v-if="hasIcon(item.icon)">
-          <font-awesome-icon :icon="item.icon" />
-        </span>
+      <div id="hobbyItem" v-for="(item, idx) in hobbies" :key="idx">
+        <span v-html="item.icon" />
         {{ item.name }}
-      </b-button>
+      </div>
     </div>
     <div class="about-me-section-container">
       <div id="header">TECHNICAL SKILLS</div>
@@ -44,17 +36,15 @@ export default {
   data() {
     return {
       hobbies: [
-        { name: "Gaming", icon: "gamepad" },
-        { name: "Jogging", icon: "running" },
-        { name: "Walking", icon: "walking" },
-        { name: "Reading (mostly fiction)", icon: "book" },
-        {
-          name: "Shooting (I can shoot both gun and bow...)",
-          icon: "bullseye",
-        },
-        { name: "Rope Skipping", icon: "frog" },
-        { name: "3D printing", icon: "" },
-        { name: "Muay Thai", icon: "" },
+        { name: "Gaming", icon: "&#127918;" },
+        { name: "Jogging", icon: "&#127939;" },
+        { name: "Walking", icon: "&#128694" },
+        { name: "Reading (mostly fiction)", icon: "&#128218;" },
+        { name: "Archery", icon: "&#127993;" },
+        { name: "Shooting", icon: "&#128299;" },
+        { name: "Rope Skipping", icon: "&#128056;" },
+        { name: "3D printing", icon: "&#128424;" },
+        { name: "Muay Thai", icon: "&#129354;" },
       ],
       skills: [
         {
@@ -123,11 +113,18 @@ export default {
   font-size: 20px;
   border-bottom: 1px var(--color-1) solid;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 #info {
   padding-top: 5px;
 }
 #hobbyItem {
-  margin: 3px;
+  margin: 2px;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  display: inline-block;
+  border: solid 1px grey;
+  background-color: grey;
+  color: black;
 }
 </style>
