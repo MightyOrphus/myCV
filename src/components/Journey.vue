@@ -35,7 +35,7 @@ export default {
           title: "DST (SS&C)",
           category: "Career",
           description:
-            "Work full time as a FULL-STACK developer and got an opportunity to work with various technologies. <br/>" +
+            "Working full time as a FULL-STACK developer and got an opportunity to work with various technologies. <br/>" +
             "For example:" +
             "<ul>" +
             "<li>Server: Apache HTTP server, JBoss, Tomcat, Websphere</li>" +
@@ -60,9 +60,9 @@ export default {
           title: "SeSaMe Center, NUS",
           category: "INTERNSHIP",
           description:
-            "Working on an object detection project (using OpenCV and Matlab)" +
+            "Working on object detection projects (using OpenCV and Matlab)" +
             "<ul>" +
-            "<li>Human face detection module for automatically a face blurring from videos.(using ACFDetector (Aggregate Channel Feature Detector))</li>" +
+            "<li>Human face detection module for automatic face blurring (using ACFDetector (Aggregate Channel Feature Detector))</li>" +
             "<li>Vehicle detection (using Histogram of Oriented Gradient + Linear SVM along with ACFDetector as an alternative solution)</li>" +
             "</ul>",
           icon: "mood",
