@@ -44,7 +44,7 @@ export default {
             "<li>DB: Oracle, MS SQL Server</li>" +
             "<li>Cloud platform: AWS (cloudformation, pipeline, alarm, s3, ec2, ...)</li>" +
             "</ul>" +
-            "So I can say that I quite have some experience with the technologies above...",
+            "So I can say that I quite familiar with the technologies above...",
           icon: "business_center",
           color: "green",
         },
