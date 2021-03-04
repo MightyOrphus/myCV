@@ -10,7 +10,7 @@
     <div class="about-me-section-container">
       <div id="header">CERTIFICATES</div>
       <div>
-        Some badge or certificate pictures should be here but somehow I can't
+        Some badge or certificate pictures should be here but somehow I fail to
         gather them...
       </div>
     </div>
