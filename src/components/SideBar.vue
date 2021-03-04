@@ -68,7 +68,7 @@ export default {
             {
               text: "English",
               variant: "primary",
-              value: 70,
+              value: 60,
             },
           ],
         },
