@@ -6,11 +6,56 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="<%= BASE_URL %>pw.png" />
     <title>Patcharawat Wongvasinkul</title>
+    <style>
+      :root {
+        /* --color-1: #c2dfe1;
+        --color-2: #53adac;
+        --color-3: #006370;
+        --color-4: #ef9a9e;
+        --color-5: #efd9d9; */
+
+        --color-1: #2f4159;
+        --color-2: #6f87a6;
+        --color-3: #5e728c;
+        --color-4: #1a1f26;
+        --color-5: #223440;
+      }
+      html,
+      body {
+        /* background-color: var(--color-1); */
+        background-color: var(--color-4);
+      }
+      #loaderWrapper {
+        background-color: var(--color-4);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+      }
+      #loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>
       <strong>Patcharawat Wongvasinkul INFO</strong>
     </noscript>
+    <div id="loaderWrapper">
+      <div id="loader"></div>
+    </div>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
