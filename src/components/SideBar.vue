@@ -80,7 +80,9 @@ export default {
 
 <style scoped>
 .sidebar {
-  background-color: var(--color-2);
+  /* background-color: var(--color-2); */
+  background-color: var(--color-1);
+  color: lightgrey;
   /* border-radius: 10px; */
   padding: 15px;
   font-size: 17px;

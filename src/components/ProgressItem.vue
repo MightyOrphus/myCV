@@ -4,12 +4,13 @@
     <span v-if="hasIcon(item.icon)">
       <font-awesome-icon :icon="item.icon" />
     </span>
-    <b-progress
+    <!-- <b-progress
       :value="item.value"
       height="5px"
       :variant="item.variant"
       striped
-    />
+    /> -->
+    <b-progress :value="item.value" height="5px" :variant="item.variant" />
   </div>
 </template>
 

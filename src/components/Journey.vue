@@ -10,7 +10,7 @@
         :category="item.category"
         :icon="item.icon"
         :color="item.color"
-        theme="light"
+        theme="dark"
       />
       <vue-timeline-update
         :date="new Date('1993-06-07')"
@@ -18,8 +18,8 @@
         description="Everything started here!"
         category=""
         icon="child_care"
-        color="grey"
-        theme="light"
+        color="orange"
+        theme="dark"
         is-last
       />
     </div>
@@ -53,7 +53,7 @@ export default {
           title: "(Graduated) Kasetsart University",
           description: "Bachelor's degree, Computer Science",
           icon: "school",
-          color: "grey",
+          color: "orange",
         },
         {
           date: "2014-01-01",
@@ -73,21 +73,21 @@ export default {
           title: "(Start) Kasetsart University",
           description: "",
           icon: "school",
-          color: "grey",
+          color: "orange",
         },
         {
           date: "2004-01-01",
           title: "Sarasas Ektra School",
           description: "Elementary school & High school",
           icon: "code",
-          color: "grey",
+          color: "orange",
         },
         {
           date: "2001-01-01",
           title: "Ratchawinit School",
           description: "Elementary school",
           icon: "code",
-          color: "grey",
+          color: "orange",
         },
       ],
     };
@@ -97,8 +97,8 @@ export default {
 <style scoped>
 .journey {
   padding: 20px;
-  /* background-color: #43c9b7; */
-  background-color: #d7fff2e3;
+  background-color: var(--color-3);
+  /* background-color: #d7fff2e3; */
   /* border-radius: 10px; */
 }
 .gb-vue-timeline-update__description {

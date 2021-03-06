@@ -30,7 +30,8 @@ export default {
   margin: 0 20px 0 20px;
 }
 a {
-  color: black;
+  /* color: black; */
+  color: lightgrey;
 }
 a:link,
 a:visited,

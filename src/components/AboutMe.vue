@@ -49,42 +49,42 @@ export default {
       skills: [
         {
           text: "Fusion 360",
-          variant: "info",
+          variant: "dark",
           value: 40,
         },
         {
           text: "Linux",
           icon: ["fab", "linux"],
-          variant: "info",
+          variant: "dark",
           value: 30,
         },
         {
           text: "SQL",
-          variant: "info",
+          variant: "dark",
           value: 45,
         },
 
         {
           text: "AWS",
           icon: ["fab", "aws"],
-          variant: "info",
+          variant: "dark",
           value: 50,
         },
         {
           text: "Tomcat",
-          variant: "info",
+          variant: "dark",
           value: 50,
         },
         {
           text: "Javascript",
           icon: ["fab", "js"],
-          variant: "info",
+          variant: "dark",
           value: 80,
         },
         {
           text: "Java",
           icon: ["fab", "java"],
-          variant: "info",
+          variant: "dark",
           value: 85,
         },
         {
@@ -100,8 +100,10 @@ export default {
 </script>
 <style scoped>
 .about-me {
-  background-color: var(--color-3);
-  color: lightgrey;
+  /* background-color: var(--color-3); */
+  background-color: var(--color-2);
+  /* color: lightgrey; */
+  color: white;
   /* border-radius: 10px; */
   padding: 15px;
   font-size: 17px;
@@ -111,7 +113,8 @@ export default {
 }
 #header {
   font-size: 20px;
-  border-bottom: 1px lightgrey solid;
+  /* border-bottom: 1px lightgrey solid; */
+  border-bottom: 1px white solid;
   font-weight: bold;
   margin-bottom: 5px;
 }
