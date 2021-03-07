@@ -27,9 +27,8 @@
       }
       #loaderWrapper {
         background-color: var(--color-4);
-        position: relative;
-        left: calc(50%-100px);
-        top: calc(50%-100px);
+        width: 100%;
+        height: 100%;
       }
       #loader {
         border: 8px solid lightgrey;
@@ -37,6 +36,8 @@
         border-radius: 50%;
         width: 100px;
         height: 100px;
+        left: calc(50%-100px);
+        top: calc(50%-100px);
         animation: spin 2s linear infinite;
       }
       @keyframes spin {
