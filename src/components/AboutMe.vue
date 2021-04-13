@@ -39,7 +39,6 @@ export default {
       hobbies: [
         { name: "Gaming", icon: "&#127918;" },
         { name: "Jogging", icon: "&#127939;" },
-        { name: "Walking", icon: "&#128694" },
         { name: "Reading (mostly fiction)", icon: "&#128218;" },
         { name: "Archery", icon: "&#127993;" },
         { name: "Shooting", icon: "&#128299;" },
