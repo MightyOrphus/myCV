@@ -10,8 +10,9 @@
     <div class="about-me-section-container">
       <div id="header">CERTIFICATES</div>
       <div>
-        Some badge or certificate pictures should be here but somehow I fail to
-        gather them...
+        <ul>
+          <li>Certified Scrum Developer (CSD)</li>
+        </ul>
       </div>
     </div>
     <div class="about-me-section-container">
