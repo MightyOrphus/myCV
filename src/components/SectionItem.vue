@@ -35,10 +35,6 @@ export default {
 #icon-container {
   margin: 0 20px 0 20px;
 }
-#textItem {
-  text-align: justify;
-  text-justify: inter-word;
-}
 a {
   /* color: black; */
   color: lightgrey;
