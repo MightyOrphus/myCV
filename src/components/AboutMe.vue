@@ -53,6 +53,11 @@ export default {
           value: 40,
         },
         {
+          text: "Angular",
+          variant: "dark",
+          value: 50,
+        },
+        {
           text: "Linux",
           icon: ["fab", "linux"],
           variant: "dark",
