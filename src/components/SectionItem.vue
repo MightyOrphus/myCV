@@ -5,10 +5,16 @@
         <font-awesome-icon :icon="item.icon" />
       </span>
       <!-- if else for text -->
-      <a v-if="item.link" class="" :href="item.link" target="_blank">
+      <a
+        v-if="item.link"
+        class=""
+        :href="item.link"
+        target="_blank"
+        id="textItem"
+      >
         {{ item.text }}
       </a>
-      <span v-else>
+      <span v-else id="textItem">
         {{ item.text }}
       </span>
     </div>
@@ -28,6 +34,10 @@ export default {
 }
 #icon-container {
   margin: 0 20px 0 20px;
+}
+#textItem {
+  text-align: justify;
+  text-justify: inter-word;
 }
 a {
   /* color: black; */
