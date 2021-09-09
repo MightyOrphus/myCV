@@ -55,7 +55,7 @@ export default {
         {
           text: "Angular",
           variant: "dark",
-          icon: ["fab", "fa-angular"],
+          icon: ["fab", "angular"],
           value: 50,
         },
         {
