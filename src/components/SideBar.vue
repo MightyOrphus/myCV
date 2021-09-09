@@ -56,8 +56,7 @@ export default {
             },
             {
               icon: ["fab", "github"],
-              text:
-                "No need to add it here...<br/>All the projects are private...",
+              text: "No need to add it here. All the projects are private...",
             },
           ],
         },
