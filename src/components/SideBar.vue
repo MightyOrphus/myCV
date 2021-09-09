@@ -55,8 +55,8 @@ export default {
               link: "https://www.facebook.com/patcharawat.wongvasinkul",
             },
             {
-              text: ["fab", "github"],
-              link: "no need to add it here all the projects are private...",
+              icon: ["fab", "github"],
+              text: "no need to add it here all the projects are private...",
             },
           ],
         },
