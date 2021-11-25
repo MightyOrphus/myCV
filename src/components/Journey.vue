@@ -31,7 +31,7 @@ export default {
     return {
       timeline: [
         {
-          date: "2017-01-01",
+          date: "2016-04-01",
           title: "DST (SS&C)",
           category: "Career",
           description:
@@ -49,14 +49,14 @@ export default {
           color: "green",
         },
         {
-          date: "2015-01-01",
+          date: "2016-01-01",
           title: "(Graduated) Kasetsart University",
           description: "Bachelor's degree, Computer Science",
           icon: "school",
           color: "orange",
         },
         {
-          date: "2014-01-01",
+          date: "2016-01-01",
           title: "SeSaMe Research Center, NUS",
           category: "INTERNSHIP",
           description:
