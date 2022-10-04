@@ -12,7 +12,6 @@
     /> -->
     <b-progress :value="item.value" height="5px" :variant="item.variant" />
   </div>
-  <span style="color:red;font-weight: bold;">*** The progress bar is representing the familiarity... <font-awesome-icon icon="&#129335" /></span>
 </template>
 
 <script>

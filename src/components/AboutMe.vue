@@ -20,6 +20,7 @@
       <div v-for="(skill, idx) in skills" :key="idx">
         <ProgressItem :item="skill" />
       </div>
+      <span style="color:red;font-weight: bold;">*** The progress bar is representing the familiarity... <font-awesome-icon icon="&#129335" /></span>
     </div>
     <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
