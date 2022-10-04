@@ -45,6 +45,7 @@ export default {
         { name: "Rope Skipping", icon: "&#128056;" },
         { name: "3D printing", icon: "&#128424;" },
         { name: "Muay Thai", icon: "&#129354;" },
+        { name: "Cycling", icon: "&#128690;" }
       ],
       skills: [
         {
