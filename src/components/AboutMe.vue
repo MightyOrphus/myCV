@@ -26,7 +26,6 @@
         <br/>
         Maybe I'm mediocre at best...
         <br/>
-        <br/>
         <span class="smaller">Also, the graph was added to make the page less empty.</span>
       </div>
     </div>
@@ -123,13 +122,13 @@ export default {
   color: white;
   /* border-radius: 10px; */
   padding: 15px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .about-me-section-container {
   margin: 10px 10px 10px 20px;
 }
 #header {
-  font-size: 20px;
+  font-size: 18px;
   /* border-bottom: 1px lightgrey solid; */
   border-bottom: 1px white solid;
   font-weight: bold;
@@ -147,7 +146,6 @@ export default {
   background-color: darkgrey;
   color: black;
 }
-
 .alert {
   font-size: 14px;
 }

@@ -89,7 +89,7 @@ export default {
   color: lightgrey;
   /* border-radius: 10px; */
   padding: 15px;
-  font-size: 17px;
+  font-size: 15px;
   word-wrap: break-word;
 }
 #avatar {

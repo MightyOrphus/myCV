@@ -101,7 +101,18 @@ export default {
   /* background-color: #d7fff2e3; */
   /* border-radius: 10px; */
 }
-.gb-vue-timeline-update__description {
-  font-size: 15px;
+.gb-vue-timeline-update {
+  padding-bottom: 10px !important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+>>> .gb-vue-timeline-update__right {
+  padding-bottom: 0 !important;
+}
+>>> p {
+  font-size: 15px !important;
+  line-height: 24px !important;
 }
 </style>
