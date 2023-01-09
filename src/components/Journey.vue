@@ -104,9 +104,8 @@ export default {
 .gb-vue-timeline-update {
   padding-bottom: 10px !important;
 }
-ul {
-  padding: 0;
-  margin: 0;
+>>> ul {
+  margin-block-end: 0 !important;
 }
 >>> .gb-vue-timeline-update__right {
   padding-bottom: 0 !important;
