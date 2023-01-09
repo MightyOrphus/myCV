@@ -20,7 +20,15 @@
       <div v-for="(skill, idx) in skills" :key="idx">
         <ProgressItem :item="skill" />
       </div>
-      <span style="color:red;font-weight: bold;">The progress bar is representing the familiarity... <font-awesome-icon icon="&#129335" /></span>
+      <div class="alert alert-warning alert-dismissible fade show" style="margin-top:20px;">
+        <strong>Warning!</strong>
+        This graph shows what I'm familiar with and how good I am at each of those things, but it doesn't show how expert I am compared to other people.
+        <br/>
+        Maybe I'm mediocre at best...
+        <br/>
+        <br/>
+        <span class="smaller">Also, the graph was added to make the page less empty.</span>
+      </div>
     </div>
     <div class="about-me-section-container">
       <div id="header">HOBBIES</div>
@@ -46,7 +54,8 @@ export default {
         { name: "Rope Skipping", icon: "&#128056;" },
         { name: "3D printing", icon: "&#128424;" },
         { name: "Muay Thai", icon: "&#129354;" },
-        { name: "Cycling", icon: "&#128690;" }
+        { name: "Cycling", icon: "&#128690;" },
+        { name: "Swimming", icon: "&#127946;" }
       ],
       skills: [
         {
@@ -137,5 +146,12 @@ export default {
   border: solid 1px darkgrey;
   background-color: darkgrey;
   color: black;
+}
+
+.alert {
+  font-size: 14px;
+}
+.alert .smaller {
+  font-size: 11px;
 }
 </style>
