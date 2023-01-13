@@ -22,7 +22,7 @@
       </div>
       <div class="alert alert-warning alert-dismissible fade show" style="margin-top:20px;">
         <strong>Warning!</strong>
-        This graph shows what I'm familiar with and how good I am at each of those things, but it doesn't show how expert I am compared to other people.
+        This graph shows what I'm familiar with and how good I am at each of them in relative to each other, but it doesn't show how expert I am compared to other people.
         <br/>
         Maybe I'm mediocre at best...
         <br/>
