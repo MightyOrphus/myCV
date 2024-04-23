@@ -26,7 +26,7 @@
         <br/>
         Maybe I'm mediocre at best...
         <br/>
-        <span class="smaller">Also, the graph was added to make the page less empty.</span>
+        <span class="smaller" style="color:red">Also, the graph was added to make the page less empty.</span>
       </div>
     </div>
     <div class="about-me-section-container">
