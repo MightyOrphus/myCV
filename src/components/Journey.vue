@@ -43,7 +43,7 @@ export default {
             "<li>Back-end: Java (Servlet, Spring boot)</li>" +
             "<li>DB: Oracle, MS SQL Server</li>" +
             "<li>Cloud platform: AWS (cloudformation, pipeline, alarm, s3, ec2, ...)</li>" +
-            "<li>MS Office Add-ins: word, excel...</li>" +
+            "<li>MS Office Add-ins (word, excel...) in C#</li>" +
             "</ul>" +
             "So I can say that I'm quite familiar with the listed technologies...",
           icon: "business_center",
