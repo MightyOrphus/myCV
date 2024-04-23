@@ -32,7 +32,7 @@
         Maybe I'm mediocre at best...
         <br />
         <span class="smaller" style="color: red"
-          ><b>Also, the graph was added to make the page less empty.</b></span
+          ><b>Also, the graph was added here to make this page less empty.</b></span
         >
       </div>
     </div>
