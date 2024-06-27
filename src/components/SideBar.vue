@@ -29,6 +29,11 @@ export default {
               text: "patcharawat.wong@gmail.com",
             },
             {
+              name: "Telephone",
+              icon: ['fas', 'phone'],
+              text: "088-000-7372"
+            },
+            {
               name: "Birth Date",
               icon: ["fas", "birthday-cake"],
               text: "June 7",
