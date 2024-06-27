@@ -35,12 +35,12 @@ export default {
             },
             {
               name: "Birth Date",
-              icon: ["fas", "birthday-cake"],
+              icon: ["fas", "cake-candles"],
               text: "June 7",
             },
             {
               name: "Habitation",
-              icon: ["fas", "map-marker-alt"],
+              icon: ["fas", "location-dot"],
               text: "Bangkok, Thailand",
             },
           ],
