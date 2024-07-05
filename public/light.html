@@ -1,3 +1,70 @@
+<!DOCTYPE html>
 <html>
-    Light weight version.
+  <head>
+    <title>Patcharawat Wongvasinkul</title>
+    <link rel="icon" href="pw.png" />
+    <style>
+      .resume {
+        display: grid;
+        grid-template-columns: 1fr 4fr; /* Change the ratio to make the left column smaller */
+        gap: 20px;
+        width: 100%;
+        margin: 30px auto;
+        padding: 20px;
+        font-size: 16px;
+      }
+      .right-column {
+        padding-left: 20px;
+        border-left: 1px solid #000; /* Add a line to separate the columns */
+      }
+      #profileImage {
+        width: 150px;
+        height: 150px;
+      }
+      .section-header {
+        border-bottom: 1px solid;
+        font-size: 18px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+      @media screen and (max-width: 600px) {
+        .resume {
+          grid-template-columns: 1fr;
+        }
+        .left-column {
+          border-right: none; /* Remove the line in mobile view */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="left-column">
+        <img src="me.jpg" alt="Your Name" id="profileImage" />
+        <h2>Patcharawat Wongvasinkul</h2>
+        <div>
+          <div class="section-header">
+            <b>Info</b>
+          </div>
+          <p>Email: patcharawat.wong@gmail.com</p>
+          <p>Phone: (088) 000-7372</p>
+        </div>
+      </div>
+      <div class="right-column">
+        <h2>Experience</h2>
+        <ul>
+          <li>Software Engineer at SSNC (2016-present)</li>
+        </ul>
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor's degree, Computer Science, Kasetsart University (2012-2016)</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
