@@ -15,6 +15,9 @@
         font-family: Heebo, "Helvetica Neue", Source Sans Pro, Helvetica, Arial,
           sans-serif;
       }
+      .left-column {
+        padding-top: 20px;
+      }
       .right-column {
         padding-left: 20px;
         border-left: 1px solid #000; /* Add a line to separate the columns */
@@ -22,6 +25,12 @@
       #profileImage {
         width: 150px;
         height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #myName {
+        text-align: center;
       }
       .section-header {
         border-bottom: 1px solid;
@@ -52,14 +61,14 @@
     <div class="resume">
       <div class="left-column">
         <img src="me.jpg" alt="Your Name" id="profileImage" />
-        <h2>Patcharawat Wongvasinkul</h2>
+        <h2 id="myName">Patcharawat Wongvasinkul</h2>
         <div>
           <div class="section-header">
             <!-- <b>Info</b> -->
           </div>
-          <p><b>Email:</b><br/>patcharawat.wong@gmail.com</p>
-          <p><b>Phone:</b><br/>(088) 000-7372</p>
-          <p><b>Hometown:</b><br/>Bangkok, Thailand</p>
+          <p><b>Email:</b><br />patcharawat.wong@gmail.com</p>
+          <p><b>Phone:</b><br />(088) 000-7372</p>
+          <p><b>Hometown:</b><br />Bangkok, Thailand</p>
         </div>
       </div>
       <div class="right-column">
