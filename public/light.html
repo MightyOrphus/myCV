@@ -11,7 +11,9 @@
         width: 100%;
         margin: 30px auto;
         padding: 20px;
-        font-size: 16px;
+        font-size: 14px;
+        font-family: Heebo, "Helvetica Neue", Source Sans Pro, Helvetica, Arial,
+          sans-serif;
       }
       .right-column {
         padding-left: 20px;
@@ -23,14 +25,18 @@
       }
       .section-header {
         border-bottom: 1px solid;
-        font-size: 18px;
+        font-size: 16px;
       }
-      ul {
-        list-style-type: none;
-        padding: 0;
+      h2 {
+        color: darkblue;
       }
-      ul li {
-        margin-bottom: 10px;
+      .introduction {
+        width: 700px;
+        text-align: justify;
+      }
+      .description {
+        width: 700px;
+        color: grey;
       }
       @media screen and (max-width: 600px) {
         .resume {
@@ -51,18 +57,68 @@
           <div class="section-header">
             <b>Info</b>
           </div>
-          <p>Email: patcharawat.wong@gmail.com</p>
-          <p>Phone: (088) 000-7372</p>
+          <p><b>Email:</b> patcharawat.wong@gmail.com</p>
+          <p><b>Phone:</b> (088) 000-7372</p>
         </div>
       </div>
       <div class="right-column">
+        <p class="introduction">
+          A software developer with nearly a decade of experience; Seeking for
+          opportunities that will enable me to further expand my skills and
+          contribute to my personal growth. I thrive on new challenges and am
+          eager to tackle innovative projects, with a strong commitment to
+          delivering high-quality products
+        </p>
         <h2>Experience</h2>
         <ul>
-          <li>Software Engineer at SSNC (2016-present)</li>
+          <li>
+            <b>Software Engineer at SSNC (2016 - present)</b>
+            <div class="description">
+              Working full time as a FULL-STACK developer and got an opportunity
+              to work with various technologies.
+              <br />For example:
+              <ul>
+                <li>Server: Apache HTTP server, JBoss, Tomcat, Websphere</li>
+                <li>Front-end: Polymer, Vue (for internal tool), JQuery</li>
+                <li>Back-end: Java (Servlet, Spring boot)</li>
+                <li>DB: Oracle, MS SQL Server</li>
+                <li>
+                  Cloud platform: AWS (cloudformation, pipeline, alarm, s3, ec2,
+                  ...)
+                </li>
+                <li>
+                  MS Office Add-ins (word, excel...) in C# So I can say that I'm
+                  quite familiar with the listed technologies...
+                </li>
+                <li>Document Viewer: Accusoft Virtual Viewer</li>
+              </ul>
+            </div>
+          </li>
         </ul>
         <h2>Education</h2>
         <ul>
-          <li>Bachelor's degree, Computer Science, Kasetsart University (2012-2016)</li>
+          <li>
+            <b
+              >Bachelor of Science (BSc) in Computer Science, Kasetsart
+              University (2012 - 2016)</b
+            >
+          </li>
+          <li>
+            <b>Internship program at SESAME RESEARCH CENTER, NUS (2015)</b>
+            <div class="description">
+              Working on object detection projects (using OpenCV and Matlab)
+              <ul>
+                <li>
+                  Human face detection module for automatic face blurring (using
+                  ACFDetector (Aggregate Channel Feature Detector))
+                </li>
+                <li>
+                  Vehicle detection (using Histogram of Oriented Gradient +
+                  Linear SVM along with ACFDetector as an alternative solution)
+                </li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
