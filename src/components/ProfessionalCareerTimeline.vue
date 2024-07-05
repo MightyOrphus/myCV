@@ -18,8 +18,8 @@ export default {
     return {
       work: [
         {
-          date: "2016-01-01",
-          title: "DST (SS&C)",
+          date: "2016-03-15",
+          title: "SS&C (Thailand) Inc. (Prior was DST Worldwide Services, Thailand)",
           category: "Career",
           description: "Working as a web application developer.",
           icon: "school",

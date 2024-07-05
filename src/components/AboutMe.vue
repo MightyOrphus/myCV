@@ -52,13 +52,13 @@ export default {
   data() {
     return {
       hobbies: [
+        { name: "3D printing", icon: "&#128424;" },
         { name: "Gaming", icon: "&#127918;" },
         { name: "Jogging", icon: "&#127939;" },
         { name: "Reading (mostly fiction)", icon: "&#128218;" },
         { name: "Archery", icon: "&#127993;" },
         { name: "Shooting", icon: "&#128299;" },
         { name: "Rope Skipping", icon: "&#128056;" },
-        { name: "3D printing", icon: "&#128424;" },
         { name: "Muay Thai", icon: "&#129354;" },
         { name: "Cycling", icon: "&#128690;" },
         { name: "Swimming", icon: "&#127946;" },

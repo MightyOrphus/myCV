@@ -36,7 +36,7 @@ export default {
             {
               name: "Birth Date",
               icon: ["fas", "cake-candles"],
-              text: "June 7",
+              text: "7 June 1993",
             },
             {
               name: "Habitation",
