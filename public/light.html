@@ -3,15 +3,27 @@
   <head>
     <title>Patcharawat Wongvasinkul</title>
     <link rel="icon" href="pw.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <style>
+      body{
+        margin: 0;
+        padding: 0;
+        line-height: 1.25;
+      }
+      h2{
+        line-height: 1;
+        margin-bottom: 0;
+      }
       .resume {
+        width: 98%;
         display: grid;
         grid-template-columns: 1fr 4fr; /* Change the ratio to make the left column smaller */
         gap: 20px;
         width: 100%;
-        margin: 30px auto;
         padding: 20px;
-        font-size: 14px;
+        font-size: 18px;
         font-family: Heebo, "Helvetica Neue", Source Sans Pro, Helvetica, Arial,
           sans-serif;
       }
@@ -19,6 +31,7 @@
         padding-top: 20px;
       }
       .right-column {
+        max-width: 700px;
         padding-left: 20px;
         border-left: 1px solid #000; /* Add a line to separate the columns */
       }
@@ -34,26 +47,29 @@
       }
       .section-header {
         border-bottom: 1px solid;
-        font-size: 16px;
+        font-size: 20px;
       }
       h2 {
         color: darkblue;
       }
       .introduction {
-        width: 650px;
+        /* max-width: 700px; */
         text-align: justify;
       }
       .description {
-        width: 650px;
+        /* max-width: 700px; */
         text-align: justify;
-        /* color: grey; */
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 900px) {
         .resume {
-          grid-template-columns: 1fr;
+          display: block;
+          padding: 0px !important;
         }
-        .left-column {
-          border-right: none; /* Remove the line in mobile view */
+        .right-column {
+          border-top: 1px solid;
+          padding-left: 0;
+          border-left: none; /* Remove the line in mobile view */
+          width: 100%;
         }
       }
     </style>
@@ -71,6 +87,10 @@
           <p><b>Phone:</b><br />(088) 000-7372</p>
           <p><b>Hometown:</b><br />Bangkok, Thailand</p>
           <p><b>Birth:</b><br />June 1993</p>
+          <h2>Certificate</h2>
+          <ul>
+            <li>Certified Scrum Developer (CSD)</li>
+          </ul>
         </div>
       </div>
       <div class="right-column">
@@ -104,10 +124,6 @@
               </ul>
             </div>
           </li>
-        </ul>
-        <h2>Certificate</h2>
-        <ul>
-          <li>Certified Scrum Developer (CSD)</li>
         </ul>
         <h2>Skill</h2>
         <ul>
