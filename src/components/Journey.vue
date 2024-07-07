@@ -43,7 +43,7 @@ export default {
             "<li>Back-end: Java (Servlet, Spring boot)</li>" +
             "<li>DB: Oracle, MS SQL Server</li>" +
             "<li>Cloud platform: AWS (cloudformation, pipeline, alarm, s3, ec2, ...)</li>" +
-            "<li>MS Office Add-ins (word, excel...) in C#</li>" +
+            "<li>.NET MS Office Add-ins (word, excel...)</li>" +
             "</ul>" +
             "So I can say that I'm quite familiar with the listed technologies...",
           icon: "business_center",
@@ -63,8 +63,8 @@ export default {
           description:
             "Working on object detection projects (using OpenCV and Matlab)" +
             "<ul>" +
-            "<li>Human face detection module for automatic face blurring (using ACFDetector (Aggregate Channel Feature Detector))</li>" +
-            "<li>Vehicle detection (using Histogram of Oriented Gradient + Linear SVM along with ACFDetector as an alternative solution)</li>" +
+            "<li>Human face detection module for automatic face blurring using ACFDetector (Aggregate Channel Feature Detector)</li>" +
+            "<li>Vehicle detection using Histogram of Oriented Gradient + Linear SVM along with ACFDetector as an alternative solution</li>" +
             "</ul>",
           icon: "mood",
           color: "green",
