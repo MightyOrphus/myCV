@@ -61,7 +61,8 @@ export default {
             },
             {
               icon: ["fab", "github"],
-              text: "No need to add it here. All the projects are private...",
+              text: "MightyOrphus",
+              link: "https://github.com/MightyOrphus",
             },
           ],
         },
