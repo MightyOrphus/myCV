@@ -3,9 +3,8 @@
     <div class="about-me-section-container">
       <div id="header">ABOUT ME</div>
       <p id="info">
-        A software developer with a decade of experience; seeking opportunities that will enable me to further expand
-        my skills and contribute to my personal growth. I thrive on new challenges and am eager to tackle innovative
-        projects, with a strong commitment to delivering high-quality products.
+        A typical programmer who is quite friendly, resilient, and polite with a
+        good sense of humor, I believe... &#128518;
       </p>
     </div>
     <div class="about-me-section-container">
@@ -66,37 +65,50 @@ export default {
       ],
       skills: [
         {
-          text: "Java (Servlet, Spring boot)",
-          icon: ["fab", "java"],
+          text: "Fusion 360",
           variant: "dark",
-          value: 85,
+          value: 40,
         },
         {
-          text: "Javascript (Vue, Polymer, Angular)",
+          text: "Angular",
+          variant: "dark",
+          icon: ["fab", "angular"],
+          value: 50,
+        },
+        {
+          text: "Linux",
+          icon: ["fab", "linux"],
+          variant: "dark",
+          value: 30,
+        },
+        {
+          text: "SQL",
+          variant: "dark",
+          value: 45,
+        },
+
+        {
+          text: "AWS",
+          icon: ["fab", "aws"],
+          variant: "dark",
+          value: 50,
+        },
+        {
+          text: "Tomcat",
+          variant: "dark",
+          value: 50,
+        },
+        {
+          text: "Javascript",
           icon: ["fab", "js"],
           variant: "dark",
           value: 80,
         },
         {
-          text: "AWS",
-          icon: ["fab", "aws"],
+          text: "Java",
+          icon: ["fab", "java"],
           variant: "dark",
-          value: 55,
-        },
-        {
-          text: "SQL (Oracle, MS SQL, DB2)",
-          variant: "dark",
-          value: 65,
-        },
-        {
-          text: "API Testing (Karate, Cucumber)",
-          variant: "dark",
-          value: 70,
-        },
-        {
-          text: "Server (Tomcat, JBoss, Websphere)",
-          variant: "dark",
-          value: 60,
+          value: 85,
         },
         {
           text: "Googling",
